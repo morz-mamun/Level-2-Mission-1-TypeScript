@@ -1,7 +1,7 @@
 {
   //
 
-  // type assertion -> define any variable type with 'as' and make sure that is the type of the variable is called type assertion.
+  // type assertion -> define any variable type with 'as' and make sure the type of the variable is called type assertion.
 
   let anything: any;
 
@@ -24,7 +24,7 @@
   const result1 = kgToGm(1000) as number // it is type assertion
   const result2 = kgToGm('1000') as string // it is type assertion
 
-  
+
 
   type CustomMsg = {
     message: string
