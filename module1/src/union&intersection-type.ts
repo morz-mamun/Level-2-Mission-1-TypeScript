@@ -33,4 +33,12 @@
         skills : string[];
         designation2: 'BackendDeveloper'
     }
+
+    type FullStackDeveloper = FrontendDeveloper & BackendDeveloper
+
+    const fullStackDeveloper : FullStackDeveloper = {
+        skills: ['HTML', 'CSS', 'JavaScript', 'EXPRESS'],
+        designation1: 'FrontendDeveloper',
+        designation2: 'BackendDeveloper'
+    }
 }
