@@ -1,5 +1,4 @@
 {
-  //
 
   // type assertion -> define any variable type with 'as' and make sure the type of the variable is called type assertion.
 
@@ -37,5 +36,4 @@
     
   }
 
-  //
 }

@@ -17,7 +17,12 @@
 
     // generic type use in Array of object -> 
 
-    const user : GenericArray<{name: string, age: number}> = [
+    type User = {
+        name: string;
+        age: number
+    }
+
+    const user : GenericArray<User> = [
         {
             name: 'Morshed',
             age: 25
