@@ -44,7 +44,7 @@
 // const isCat = (animal: Animal) : animal is Cat => {
 //     return animal instanceof Cat
 // }
-
+ 
     const getAnimal = (animal: Animal) => {
         if(animal instanceof Dog){
             animal.makeBark()
