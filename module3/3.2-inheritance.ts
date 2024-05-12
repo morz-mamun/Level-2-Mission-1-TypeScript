@@ -1,7 +1,7 @@
 {
   // OOP -> Inheritance in OOP
 
-  class Parent {
+  class Person {
     name: string;
     age: number;
     address: string;
@@ -18,7 +18,7 @@
   }
 
 // create Student class and some value inheritance from Parent class
-  class Student extends Parent{
+  class Student extends Person{
     constructor(name: string, age: number, address: string){
         super(name, age, address)
     }
@@ -30,7 +30,7 @@
 
 //   create Teacher CLass -> 
 
-  class Teacher extends Parent{
+  class Teacher extends Person{
     designation: string
     constructor(name: string, age: number, address: string, designation: string){
         super(name, age, address)
