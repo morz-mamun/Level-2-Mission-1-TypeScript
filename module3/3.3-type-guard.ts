@@ -5,6 +5,7 @@
     // typeof guard -> 
 
     type Params = string | number
+    
     const add = (param1: Params, param2: Params) : Params => {
         if(typeof param1 === 'number' && typeof param2 === 'number'){
             return param1 + param2
