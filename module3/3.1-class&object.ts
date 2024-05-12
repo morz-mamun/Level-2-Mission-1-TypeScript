@@ -21,6 +21,8 @@
     // }
   
     class Animal {          // class create by typescript 
+        
+        // public is a parameter properties.
         constructor(public name: string, public species: string, public sound: string){}
         makeSound(){
             console.log(`The ${this.name} says ${this.sound}.`)
