@@ -1,5 +1,5 @@
 {
-    // Access Modifiers 
+    // getter and setter modifier
     
     class BankAccount {
        readonly id: number;
@@ -13,11 +13,14 @@
             this._balance = balance
         }
 
-        addDeposit(amount : number){
+        set deposit(amount : number){
             this._balance = this._balance + amount
         }
+        // addDeposit(amount : number){
+        //     this._balance = this._balance + amount
+        // }
 
-        getBalance(){
+        get Balance(){
             return this._balance
         }
     }
@@ -29,11 +32,9 @@
     }
 
     const goriberAccount = new BankAccount(111, 'Morshed', 200)
-    goriberAccount.addDeposit(100)
-    const myBalance = goriberAccount.getBalance()
-    console.log(myBalance);
     
-    
+    const myBalance = goriberAccount.Balance
+    goriberAccount.deposit = 50
 
 
     // 
