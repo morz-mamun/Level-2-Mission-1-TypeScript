@@ -1,5 +1,5 @@
 {
-  // OOP -> Inheritance in OOP -> Parent theke clid a kono kisu niye jawa.
+  // OOP -> Inheritance in OOP -> Parent class theke clid class a kono kisu niye jawa.
 
   class Person {
     name: string;

@@ -1,5 +1,5 @@
 {
-  //  Polymorphism -> kono ekti class er kono method jodi kono karone change hoye jai theke polymorphism bole. Niche get method er name same but output different.
+  //  Polymorphism -> kono ekti class er kono method jodi kono karone ba onno kono kono class a giye change hoye jai theke polymorphism bole. Niche get method er name same but output different.
 
   class Person {
     getSleep() {
